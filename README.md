@@ -1,4 +1,4 @@
-# denti
+# Test case
 ## Notebooks
 `main.ipynb` - baseline solution: QuartzNet + trigram-LM + spelling correction
 

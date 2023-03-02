@@ -1,6 +1,6 @@
 # Test case
 
-Goal: Achieve sufficient accuracy of STT transcribation on a simple case. Let's say it's a dentist observation of a patient according to a specific grammar (described in grammar.g). Main challenge is to correctly transcribe unfamiliar or rare words (plaque, bleeding, dentist argot etc.)
+Goal: Achieve sufficient accuracy of STT transcribation on a simple case. Let's say it's a dentist observation of a patient according to a specific grammar (described in `commands.g`). Main challenge is to correctly transcribe unfamiliar or rare words (plaque, bleeding, dentist argot etc.)
 
 Plan: scrape a few videos from youtube thematically relevant to the present case. Extract words using forced alignment. Train basic classifier on top of marblenet embeddings. Train a basic LM on a randomly generated corpus according to given grammar.
 
